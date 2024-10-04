@@ -34,7 +34,7 @@ public class PersonalFinanceManagementSystem {
 			System.out.println("5. Exit");
 			System.out.print("Choose an option: ");
 			choice = scanner.nextInt();
-			scanner.nextLine(); // Consume newline
+			scanner.nextLine();
 
 			switch (choice) {
 			case 1:
@@ -75,9 +75,9 @@ public class PersonalFinanceManagementSystem {
 		double balance = user.calculateBalance();
 		System.out.printf("Current Balance: %.2f%n", balance);
 		if (balance > 0) {
-			System.out.println("You’re saving well!");
+			System.out.println("Youâ€™re saving well!");
 		} else {
-			System.out.println("You’re in debt. Try to cut down on expenses.");
+			System.out.println("Youâ€™re in debt. Try to cut down on expenses.");
 		}
 	}
 
